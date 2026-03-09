@@ -1,1 +1,1 @@
-# javascripy---cash--register
+# javascript-cash-register
