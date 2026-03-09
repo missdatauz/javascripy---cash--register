@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e7dfdf;
+    letter-spacing: 0.1rem;
+    color: #333;
+    font-family: sans-serif;
+}
+.heading {
+    text-align: center;
+    margin: 50px;
+    color: rgb(43, 38, 38);
+}
+
+label {
+    font-size: 1.5rem;
+    
+}
+
+label,
+ input,
+  button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+ 
+input,
+ button {
+display: block;
+margin: auto;
+margin-top: 30px;
+}
+
+ input {
+    width: 60%;
+    max-width: 35%;
+    padding: 5px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid  rgb(133, 153, 151);
+    background-color:  rgb(228, 233, 231);
+    text-align: center;
+    
+    
+}
+
+input:focus {
+    background-color: rgb(168, 163, 163);
+    outline: none;
+
+    
+}
+
+button {
+    width: 25%;
+    padding: 7px 10px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    
+}
+button:hover {
+    background-color: rgb(168, 163, 163);
+}
+.center {
+    margin-top: 50px;
+    text-align: center;
+}
+.total {
+    text-align: center;
+    margin: 60px;
+    font-size: 1.2rem;
+   
+}
+
+
+
+.cashSection {
+     margin-left: 50px;
+margin-bottom:50px ;
+    background-color: rgb(116, 116, 143);
+    width: 80%;
+    padding: 20px 40px;
+    border-radius: 5px;
+    
+}
+.cashSection p{
+ font-weight: bolder;
+ line-height: 1.7;
+}
+
+.cashSection ul {
+    list-style-type: none;
+}
+
+.cashSection li {
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+
